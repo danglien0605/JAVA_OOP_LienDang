@@ -1,12 +1,20 @@
 package HW_07_1;
 
 public class Bird extends Animal{
-    public Bird(String name, int maxSpeed) {
-        super(name, maxSpeed);
+    static{
+        maxSpeed = 75;
+    }
+    public Bird(String name) {
+        super(name);
     }
 
     @Override
     public boolean isFlyAble() {
         return true;
+    }
+
+    @Override
+    public int getRandomSpeed() {
+        return 0;
     }
 }

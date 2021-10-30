@@ -7,9 +7,9 @@ import java.util.Map;
 public class WhoIsWinner {
     public static void main(String[] args) {
         String theWinner = "";
-        Animal tiger = new Tiger("Tiger",100);
-        Animal dog = new Dog("Dog", 50);
-        Animal bird = new Bird("Bird", 75);
+        Animal tiger = new Tiger("Tiger");
+        Animal dog = new Dog("Dog");
+        Animal bird = new Bird("Bird");
 
 
         Map<String, Integer> dataMap = new LinkedHashMap<>();
